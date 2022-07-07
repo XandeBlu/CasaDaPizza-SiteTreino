@@ -110,9 +110,13 @@ table.tabela{
         border-right: 2px solid black ;
       
        
-       
-        
         }
+
+        table#Doces {
+           margin: auto 30px auto auto;
+          
+           
+            }
     
       
         table.tabela th {
