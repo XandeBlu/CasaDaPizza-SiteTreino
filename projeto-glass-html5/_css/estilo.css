@@ -13,12 +13,6 @@ body{
     font-family: 'FonteLogo';
 }
 
-div#interface{
-width: 1800px;
-margin: 10px 10px 10px 10px;
-/* background-color: rgba(139, 100, 40,0,5); */
-
-}
 
 h1{
     text-align: center;
@@ -129,21 +123,13 @@ border-bottom: 2px black dotted;
 
 /* Formatação do Menu de redes sociais */
 
-figure#zap{
-    position: absolute;
-    width: 150px;
-    height: 60px;
-    top: 320px;
-    left: 1600px;
-    
 
-}
  
 figure#zap ol{
-width: 200px;
-display: inline-block;
 list-style: none;
-position: relative;
+position: absolute;
+left: 1600px;
+top: 320px;
 
 
 }
@@ -164,7 +150,7 @@ background-color: rgba(0,0,0,0.4);
     top: 0px;
     width: 30px;
     height: 30px;
-    background-color: blue;
+   
     
 }
 

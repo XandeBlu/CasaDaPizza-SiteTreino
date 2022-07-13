@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo' ;
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+body{
+
+    font-family: 'FonteLogo';
+    background-color: rgb(238, 177, 116);
+    color: black;
+}
+
+header#cabeçalho{
+border-bottom: 2px dotted black ;
+width: 1815px;
+}
+
+nav#menu li{
+display: inline-block;
+background-color: rgba(0, 0, 0, 0.3);
+padding: 10px;
+margin: 2px;
+}
+
+nav#menu li:hover{
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav#menu ol{
+    position: absolute;
+list-style: none;
+text-transform: uppercase;
+top: 0px;
+left: 1200px;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+div#menusocial ol{
+    position: absolute;
+    list-style: none;
+    left: 1600px;
+    top: 320px;
+
+
+}
+
+div#menusocial li{
+    display: inline-block;
+}
+
+div#menusocial img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    
+    
+    }

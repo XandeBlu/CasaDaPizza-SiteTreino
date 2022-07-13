@@ -12,7 +12,6 @@ font-family: 'FonteLogo' ;
 }
 
 div#interface{
-border-bottom: 2px dotted black;
 width: 1800px;
 margin: 10px 10px 10px 10px;
 
@@ -20,7 +19,7 @@ margin: 10px 10px 10px 10px;
 
 section#corpo{
 float: left;
-border-right: 2px dotted black;
+border-right: 2px  black dotted;
 width: 1200px;
 display: block;
 
@@ -42,11 +41,11 @@ border-top: 2px dotted black;
 
 /* Formatação do menu */
 header#cabeçalho{
-border-bottom: 2px dotted black;
+border-bottom: 2px  black dotted;
 
 }
 
-nav#menuzin ol{
+nav#menu ol{
 position: absolute;
 list-style: none;
 text-transform: uppercase;
@@ -54,20 +53,20 @@ top: 0px;
 left: 1200px;
 }
 
-nav#menuzin li{
+nav#menu li{
     display: inline-block;
     padding: 10px;
     margin: 2px;
     background-color: rgba(0,0,0,0.3);
 }
 
-nav#menuzin a{
+nav#menu a{
 text-decoration: none;
 color: black;
 
 }
 
-nav#menuzin li:hover {
+nav#menu li:hover {
 background-color: rgba(0,0,0,0.5);
 
 }
