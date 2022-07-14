@@ -13,7 +13,7 @@ body{
 
 header#cabeçalho{
 border-bottom: 2px dotted black ;
-width: 1815px;
+
 }
 
 nav#menu li{
@@ -62,3 +62,8 @@ div#menusocial img{
     
     
     }
+
+ section#formulario{
+
+
+ }   
