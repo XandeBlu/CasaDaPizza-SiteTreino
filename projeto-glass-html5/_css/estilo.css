@@ -103,9 +103,51 @@ header#cabecalho{
 
 border-bottom: 2px black dotted;
 
+}
+/* formatação do album de fotos*/
+
+ul#album{
+width: 700px;
+padding: 50px;
+margin: auto auto auto 0px;
+overflow: hidden;
+list-style: none;
 
 }
 
+ul#album li{
+float: left;
+width: 200px;
+height: 200px;
+margin: 10px;
+border: 1px solid rgb(0, 0, 0);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+
+}
+
+ul#album li#ft1{
+background: url(../_imagens/Ftscasadapizza/pizza.jpg) no-repeat;
+}
+
+ul#album li#ft2{
+    background: url(../_imagens/Ftscasadapizza/Fotopizza2.jpg) no-repeat;
+    }
+
+    ul#album li#ft3{
+        background: url(../_imagens/Ftscasadapizza/Fotopizza3.jpg) no-repeat;
+        }
+
+        ul#album li#ft4{
+            background: url(../_imagens/Ftscasadapizza/Fotopizza4.jpg) no-repeat;
+            }
+
+            ul#album li#ft5{
+                background: url(../_imagens/Ftscasadapizza/Foto5.jpg) no-repeat;
+                }
+
+                ul#album li#ft6{
+                    background: url(../_imagens/Ftscasadapizza/foto6.jpg) no-repeat;
+                    }
 /* Formatação do Menu de redes sociais */
 
 
