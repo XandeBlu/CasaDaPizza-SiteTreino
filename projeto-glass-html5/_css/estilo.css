@@ -88,11 +88,7 @@ figure.foto-legenda-pizza {
    
 
 }
-figure.foto-legenda-pizza:hover figcaption{
-    opacity: 1;
 
-
-}
 
 figure.foto-legenda-pizza img{
 
@@ -101,18 +97,7 @@ figure.foto-legenda-pizza img{
    
 }
 
-figure.foto-legenda-pizza figcaption{
-position: absolute;
-opacity: 0;
-top: 0px;
-color: white;
-background-color: rgba(0,0,0,0.4);
-width: 100%;
-height: 100%;
-transition: opacity 1s;
 
-
-}
 
 header#cabecalho{
 
