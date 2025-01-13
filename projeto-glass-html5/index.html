@@ -5,25 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="_css/estilo.css">
+    <script src="_javascript/slide.js" defer></script>
     <meta name="description" content="Site da Casa da Pizza, apresentando nossas pizzas feitas no forno a lenha.">
 
 </head>
 
 <body>
     
-     <div class="cabecalho">   
+   <div class="cabecalho">   
         
         <img src="_imagens/Ftscasadapizza/casa-da-pizza-logo.jpg" alt="Foto de uma pizza, saindo do forno a lenha">
         <h1>Casa da pizza</h1>
 
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Faça seu Pedido</a></li>
-            </ul>
-        </nav>
+        <button class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span class="text">Faça seu pedido</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+          </button>
         
     </div> 
+
+    <section class="slider">
+        <div class="btn-transiction">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+    
+            <div class="slide primeiro">
+                <img class="img-desktop" src="_imagens/Ftscasadapizza/primeira.jpg" alt="Primeiro slide com uma pizza deliciosa">
+                <img class="img-mobile" src="_imagens/Ftscasadapizza/primeira-mobile.jpg" alt="Primeiro slide com uma pizza deliciosa para mobile">
+            </div>    
+
+            <div class="slide">
+              <img class="img-desktop" src="_imagens/Ftscasadapizza/Segunda.jpg" alt="Primeiro slide com uma pizza deliciosa">
+              <img class="img-mobile" src="_imagens/Ftscasadapizza/Segunda.jpg" alt="Primeiro slide com uma pizza deliciosa para mobile">
+          </div>  
+
+          <div class="slide">
+            <img class="img-desktop" src="_imagens/Ftscasadapizza/Terceira.jpg" alt="Primeiro slide com uma pizza deliciosa">
+            <img class="img-mobile" src="_imagens/Ftscasadapizza/Terceira.jpg" alt="Primeiro slide com uma pizza deliciosa para mobile">
+        </div>  
+
+        <div class="slide">
+          <img class="img-desktop" src="_imagens/Ftscasadapizza/Quarta.jpg" alt="Primeiro slide com uma pizza deliciosa">
+          <img class="img-mobile" src="_imagens/Ftscasadapizza/Quarta.jpg" alt="Primeiro slide com uma pizza deliciosa para mobile">
+      </div>  
+            <!-- Repita para os outros slides -->
+
+            <div class="nav-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+          </div>
+        </div>
+    
+        
+    
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn" aria-label="Slide 1"></label>
+            <label for="radio2" class="manual-btn" aria-label="Slide 2"></label>
+            <label for="radio3" class="manual-btn" aria-label="Slide 3"></label>
+            <label for="radio4" class="manual-btn" aria-label="Slide 4"></label>
+        </div>
+    </section>
 
     <div class="pedido">
         
